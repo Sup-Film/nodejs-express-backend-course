@@ -21,12 +21,12 @@ Content-Type: application/json
 
 ### Fetch all todos GET /todos
 GET http://localhost:3000/todos
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3NDg4MDE0LCJleHAiOjE3NTc1NzQ0MTR9.I8nTgS2CPiEmqs5HoGiJj1vDNCs57c7kbWWAApVBYUU
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3NDg4MzQxLCJleHAiOjE3NTc1NzQ3NDF9.wGISxx8RoZmz2Hn4VAijSnd2MD2Oa_coA_HauRGix0o
 
 ### Create a todo POST /todos
 POST http://localhost:3000/todos
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3NDg4MDE0LCJleHAiOjE3NTc1NzQ0MTR9.I8nTgS2CPiEmqs5HoGiJj1vDNCs57c7kbWWAApVBYUU
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3NDg4MzQxLCJleHAiOjE3NTc1NzQ3NDF9.wGISxx8RoZmz2Hn4VAijSnd2MD2Oa_coA_HauRGix0o
 
 {
   "task": "New Todo Item",
@@ -36,7 +36,7 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3NDg4
 ### Update a todo PUT /todos/:id
 PUT http://localhost:3000/todos/1?page=2
 Content-Type: application/json
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3NDg4MDE0LCJleHAiOjE3NTc1NzQ0MTR9.I8nTgS2CPiEmqs5HoGiJj1vDNCs57c7kbWWAApVBYUU
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3NDg4MzQxLCJleHAiOjE3NTc1NzQ3NDF9.wGISxx8RoZmz2Hn4VAijSnd2MD2Oa_coA_HauRGix0o
 
 {
   "completed": 1
@@ -44,4 +44,4 @@ Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3NDg4
 
 ### Delete a todo DELETE /todos/:id
 DELETE http://localhost:3000/todos/2
-Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3NDg4MDE0LCJleHAiOjE3NTc1NzQ0MTR9.I8nTgS2CPiEmqs5HoGiJj1vDNCs57c7kbWWAApVBYUU
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU3NDg4MzQxLCJleHAiOjE3NTc1NzQ3NDF9.wGISxx8RoZmz2Hn4VAijSnd2MD2Oa_coA_HauRGix0o
